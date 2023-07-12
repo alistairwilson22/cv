@@ -1,3 +1,6 @@
+.container {
+    max-width:none;
+}
 .dark-col {
     background-color:#465B65;
     color: #fff;
@@ -21,4 +24,42 @@
 }
 .left-side h2 {
     text-transform: uppercase;
+}
+.left-side h4 {
+    font-style: italic;
+    font-size: 1rem;
+}
+.school, .uni {
+    margin-bottom:20px;
+}
+p { 
+    margin-bottom: 0;
+}
+.uni img {
+    max-width: 48px;
+}
+.school img {
+    max-width:36px;
+    margin-right:5px;
+}
+.hobbies .hobbie {
+    width:25%;
+    float:left;
+}
+@media screen and (max-width:980px){
+    .hobbies .hobbie {
+        width:50%;
+    }
+}
+.hobbies .hobbie .grid {
+    clear:both;
+}
+.hobbies .hobbie i {
+    font-size: 40px;
+    color: #fff;
+    padding: 10px 0px;
+}
+.hobbies .hobbie img {
+    max-width: 50px;
+    padding: 5px 0px;
 }
