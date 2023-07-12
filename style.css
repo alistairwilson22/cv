@@ -7,10 +7,15 @@
 }
 .light-col {
     background-color:#DFE0E3;
+    padding: 50px 100px;
+    text-align: left;
+}
+.light-col div {
+    max-width: 750px;
 }
 .left-side {
     text-align: left;
-    padding:50px;
+    padding: 50px;
 }
 .name {
     padding-bottom:30px;
@@ -46,11 +51,6 @@ p {
     width:25%;
     float:left;
 }
-@media screen and (max-width:980px){
-    .hobbies .hobbie {
-        width:50%;
-    }
-}
 .hobbies .hobbie .grid {
     clear:both;
 }
@@ -62,4 +62,89 @@ p {
 .hobbies .hobbie img {
     max-width: 50px;
     padding: 5px 0px;
+}
+.contact {
+    clear: both;
+    padding-top: 30px;
+}
+.contact .address, .contact .tel, .contact .email {
+    padding-bottom:20px;
+}
+.section-header {
+    border-top: solid 2px #465B65;
+    border-bottom: solid 2px #465B65;
+    margin: 10px 0px;
+    padding: 10px 0px;
+    width:70%;
+    float: left;
+}
+.circle {
+    float: left;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: #465B65;
+    margin-top:10px;
+    margin-left: -35px;
+}
+.circle i {
+    color: #fff;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.skills .circle i {
+    margin-left: 24px;
+}
+.container.job, .clear {
+    clear: both;
+}
+.container.job {
+    padding: 15px 0px;
+}
+.work-experience {
+    padding: 30px 0px;
+}
+.light-col .container {
+    padding-left: 0px;
+}
+.role { 
+    font-weight: 600;
+    font-style: italic;
+    padding-bottom: 5px;
+}
+@media screen and (max-width: 980px) {
+    .col-4, .col-8, .col-6 {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 480px) and (max-width: 980px) {
+    .dark-col .left-side {
+        text-align: center;
+    }
+}
+img {
+    max-width: 100%;
+}
+.progress-bar {
+    background-color: #465B65;
+}
+.progress {
+    border: solid 1px #465B65;
+    margin-top: 15px;
+}
+.label {
+    width: 33%;
+    float: left;
+    text-transform: uppercase;
+    min-height: 50px;
+}
+.label.one-line {
+    margin-top: 15px;
+}
+.light-col h2 {
+    text-transform: uppercase;
+}
+.contact a {
+    color: #fff;
 }
