@@ -1,0 +1,24 @@
+.dark-col {
+    background-color:#465B65;
+    color: #fff;
+}
+.light-col {
+    background-color:#DFE0E3;
+}
+.left-side {
+    text-align: left;
+    padding:50px;
+}
+.name {
+    padding-bottom:30px;
+}
+.education {
+    padding-bottom:30px;
+}
+.left-side h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.left-side h2 {
+    text-transform: uppercase;
+}
